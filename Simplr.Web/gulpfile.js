@@ -1,3 +1,4 @@
+/// <binding BeforeBuild=':build' AfterBuild=':bundle' Clean=':clean' ProjectOpened='default' />
 var fs = require('fs');
 var gulp = require('gulp');
 var path = require('path');
