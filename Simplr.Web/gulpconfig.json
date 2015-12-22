@@ -16,11 +16,13 @@
     "BundleConfig": {
         "AppFile": "app.js",
         "BuildFile": "build.js",
-        "Include": [],
+        "Include": [
+          "css"
+        ],
         "Exclude": [
             "[wwwroot/js/app/**/*]"
         ]
     },
-    "WebConfig": null,
+    "WebConfig": "web.config",
     "CfgVersion": 2.02
 }
